@@ -1,0 +1,27 @@
+.navbar{
+    background-color: blue;
+height:3rem;
+width:100%;
+display :flex;
+align-items: center;
+/* justify-content: space-between; */
+padding: 10px 10%;
+
+
+
+}
+
+.Menuitm1{
+    margin:-80px;
+    margin-left: 14rem;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.Portfolio{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: -7rem;
+}

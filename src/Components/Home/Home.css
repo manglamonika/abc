@@ -1,0 +1,33 @@
+.home-content{
+    /* color: black; */
+    position: relative;
+    top:5rem;
+    left:7rem;
+    
+}
+.profilepic{
+    
+    position: relative;
+    height:14rem;
+    left:34rem;
+    top:5rem;
+    border-radius: 10rem 10rem 10rem 10rem;
+    
+    /* margin-left: 53rem; */ 
+}
+.home{
+    display: flex;
+  
+}
+.cv{
+   position: relative;
+   top: 3rem;
+   right:30rem;
+   margin:15px;
+   height:2.5rem;
+   font-weight:bold; 
+   color: black;  
+}
+*{
+    color: antiquewhite;
+}

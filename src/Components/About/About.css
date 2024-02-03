@@ -1,0 +1,73 @@
+
+.technical{
+    font-weight: 900;
+    font-size: 2rem;
+    position: relative;
+    right: 20rem;
+    margin:2rem;
+    margin-left:25rem;
+}
+.maintag{
+    position: relative;
+    top: 4rem;
+}
+.tech{
+   font-weight:600;
+   font-size: 1.5rem;
+   
+}
+.skills{
+    color: rgb(235, 39, 39);
+    margin:-1rem;
+    position: relative;
+    bottom:2rem;
+    
+   
+    
+}
+.skilltitle{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2rem;
+    margin:-1rem;
+    right: 30rem;
+    /* background-color: azure; */
+    /* background: linear-gradient(-65deg ,#db1111 10% ,white 30% ,black 65% , white 30%); */
+
+    
+}
+
+.skill{
+  display: flex;
+  justify-content:end;
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 5rem;
+  color:blue;
+  margin-left:12rem;
+  
+ 
+
+
+}
+/* .skilltitle  .skill  {
+     background-color: aliceblue;
+     width: 60%;
+     height: -1rem;
+     border-radius: 5rem ;
+   
+   
+    
+    
+  
+
+} */
+.skilltitle .skills{
+   
+    width:80%;
+    height: -1rem;
+    
+   
+    
+}
