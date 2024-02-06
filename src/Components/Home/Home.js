@@ -14,7 +14,7 @@ const Home = () => {
                     Looking for a job 
                 </p>
             </div>
-            <img src={pic} className='profilepic'/>
+            <img src={pic} alt="pic" className='profilepic'/>
            
         </section>
         <button className='cv'>Download CV</button>
