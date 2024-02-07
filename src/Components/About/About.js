@@ -16,23 +16,29 @@ const About = () => {
           <div className="skills">
             <div className="moni">
               <span className="skill" >Html</span>
-              <span className="skill">72%</span>
+              <span className="skill1">72%</span>
             </div>
           </div>
 
           <div className="skills">
+            <div className="moni">
             <span className="skill">Figma</span>
-            <span className="skill" id="ski">72%</span>
+            <span className="skill2" id="ski">72%</span>
+            </div>
           </div>
         
           <div className="skills">
+          <div className="moni">
             <span className="skill" >Javascript</span>
-            <span className="skill" id="skil">72%</span> 
+            <span className="skill3" id="skil">72%</span>
+            </div> 
           </div>
 
           <div className="skills">
+            <div className="moni">
             <span className="skill">Css</span>
-            <span className="skill">72%</span>
+            <span className="skill4">72%</span>
+            </div>
           </div>
 
 
