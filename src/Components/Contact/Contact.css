@@ -3,10 +3,7 @@
     width:100%;
     height: 25rem;
     position: relative;
-    top:8rem;
-   
-    
-      
+    top:80rem;
     /* animation-name: example;
     animation-duration: 4s; */
     z-index: 1;
@@ -17,8 +14,10 @@
     50% {background-color: blue;}
     100%{background-color: green;}
 } */
+
 .button{
-    button {
+   
+   button {
         width: 165px;
         height: 62px;
         cursor: pointer;
@@ -27,6 +26,7 @@
         border-radius: 1rem;
         border: none;
         position: relative;
+        
         background: #100720;
         transition: 0.1s;
         
@@ -39,23 +39,30 @@
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
         filter: blur(15px);
         z-index: -1;
-        position: absolute;
+         max-width: 100%;
+        aspect-ratio: 2/3;
+        object-fit: cover;
+        position: absolute; 
         left: 0;
         top: 0;
       }
       
       button:active {
+        
         transform: scale(0.9) rotate(3deg);
         background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
         transition: 0.5s;
       }
-}
 
+    }
 .contact  {
     border-radius: 15px;
-    width: 20%;
-position: relative;
-left:36rem;
+    max-width: 100%;
+    aspect-ratio: 21/9;
+    object-fit: cover;
+    /* width: 20%; */
+/* position: relative;
+left:1rem; */
 /* background: transparent; */
 box-shadow: rgba(247, 24, 24, 0.818) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
  /* box-shadow: rgba(207, 23, 26, 0.25) 0px 50px 100px -20px, rgba(231, 21, 21, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
@@ -64,7 +71,43 @@ box-shadow: rgba(247, 24, 24, 0.818) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.1
 
 #write{
     color: #24243e;
+    position: relative;
+    right: 20rem;
+    top: 13rem;
+  
 }
+.form{
+    color: #24243e;
+    
+
+}
+
 .text1{
-color:transparent
+    border-radius: 10rem;
+    width: 24rem;
+    height:3rem;
+ position: relative;
+ bottom:5rem;
+ left:24.5rem;
+ color: #24243e;
+ 
+
+
+}
+.text2{
+    border-radius: 10rem;
+    width: 24rem;
+    height:3rem;
+    position: relative;
+    color: #24243e;
+
+
+}
+.main-text{
+    font-size: larger;
+    font-weight: 700;
+}
+.form{
+    position: relative;
+    bottom:2rem;
 }

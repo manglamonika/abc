@@ -1,0 +1,46 @@
+.projectpic1{
+    height:10rem;
+    width:13rem;
+}
+.Head-tag  {
+    margin:1rem;
+    text-align: center;
+}
+.Head-tag .btn{
+    background: none;
+    margin:0.5rem;
+   border:none;
+    cursor: pointer;
+    font-size: larger;
+    letter-spacing: 1px;
+    margin-left:1.5rem;
+}
+
+.Head-tag .btn:hover{
+    color:blue;
+}
+
+.project{
+    /* display: flex;
+    flex-wrap: wrap; */
+/*    
+    max-width: 100%; */
+    display: grid;
+    /* grid-template-columns: auto; */
+    /* grid-gap:10px; */
+    /* grid-template-columns: 30px 200px auto 100px; */
+    grid-template-columns: repeat(auto-fill , minmax(400px , 2fr));
+    /* gap:5rem; */
+   
+    /* margin:-1rem; */
+}
+.photo{
+    border-radius: 20px ;
+    /* align-items: center; */
+overflow: hidden;
+    background-color: azure;
+}
+.project-type{
+    overflow: hidden;
+}
+

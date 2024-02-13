@@ -9,7 +9,7 @@
 }
 .maintag{
     position: relative;
-    top: 4rem;
+    top: 44rem;
 }
 .tech{
    font-weight:600;
@@ -20,7 +20,7 @@
 .skills{
     
     background-color: white;
-    width: 40%;
+    width: 32.5%;
     margin: auto;
     margin-left: -30rem;
     margin-top: 2rem;
@@ -32,24 +32,55 @@
 #skil{
     /* color: aqua; */
     margin: auto;
-    margin-left: 11rem;
+    margin-left: 9rem;
+    z-index: 1;
+    color: purple;
 }
 
 #ski{
     margin: auto;
-    margin-left: 12rem;
+    margin-left: 11rem;
+    z-index: 1;
+    color: purple;
+}
+#ski1{
+    margin: auto;
+    margin-left: 11.5rem;
+    z-index: 1;
+    color: purple;
+}
+#ski2{
+    margin: auto;
+    margin-left: 11.5rem;
+    z-index: 1;
+    color: purple;
 }
 .skill{
-    color: red;
-    margin: 8rem;
-    margin-left: 13rem;
+   position: relative;
+   bottom: 0.1rem;
+
 }
 
+/* .skill{ */
+    /* color: red;
+    margin: 8rem;
+    margin-left: 13rem;
+     z-index: 1;
+     height: 2rem;
+    color: purple;
+} */
+
 .moni{
-    background-color: aqua;
+    height: 20px;
+    width: 80%;
+    background: linear-gradient(to right, #857cd6, #695ee5, #24243e);
+
+    border-radius: 3px;
+    animation: fillBars 2.5s 1;
+    /* background-color: aqua;
     border-radius: 20px;
     width: 30rem;
-    animation: fill 3s 1;
+    animation: fill 3s 1; */
 }
 
 @keyframes fill{
@@ -60,7 +91,87 @@
         width: 30rem;
     }
 }
+.moni{
+    background-color: aqua;
+    border-radius: 20px;
+    width: 30rem;
+    animation: fill1 3s 1;
+}
+@keyframes fill1{
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+.moni{
+    background-color: aqua;
+    border-radius: 20px;
+    width: 30rem;
+    animation: fill2 3s 1;
+}
+@keyframes fill2{
+    from{
+        width: 0;
+    }
+    to{
+        width: 30rem;
+    }
+}
+@keyframes fill3{
+    from{
+        width: 0;
+    }
+    to{
+        width: 30rem;
+    }
+}
 
 
    
+    /* professional */
+
+     
+   .text{
+    display: flex;
     
+
+   } 
+     .circle{
+        width:150px;
+        height:150px;
+        border-radius: 5rem;
+        background: linear-gradient(to right, #9796f0, #fbc7d4);
+
+       border:9px solid white;
+
+    
+    }
+    #main{
+        margin-left:53rem;
+     margin-bottom: 90rem; 
+        position: relative;
+        bottom: 22rem;
+
+    display: grid; 
+    
+
+    }
+
+ #b4,#t4{
+   
+    position: relative;
+    left:15rem;
+    bottom: 23rem;
+ }
+ #b3,#t3{
+    position: relative;
+    left:15rem;
+    bottom: 23rem;
+ }
+ #i1,#i2,#i3,#i4{
+    position: relative;
+    bottom:6rem;
+    left:4rem;
+ }

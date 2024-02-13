@@ -1,5 +1,5 @@
 .navbar{
-    background-color: blue;
+    background-color:rgb(25, 9, 203);
 height:3rem;
 width:100%;
 display :flex;
@@ -20,8 +20,16 @@ padding: 10px 10%;
 
 
 }
+.Menuitm1:hover{
+  color:black;
+  text-decoration: underline;
+}
 .Portfolio{
   font-weight: bold;
   font-size: 2rem;
   margin-left: -7rem;
+}
+.Portfolio:hover{
+  box-shadow: 10px 10px 15px 12px black;
+
 }

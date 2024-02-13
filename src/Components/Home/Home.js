@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
-import pic from '../../assests/pic.jpeg';
+import pic from '../../assests/pic2.png';
+import pdf from '../../assests/Monika_resume.pdf';
 
 const Home = () => {
   return (
@@ -14,10 +15,11 @@ const Home = () => {
                     Looking for a job 
                 </p>
             </div>
-            <img src={pic} alt="pic" className='profilepic'/>
+            <div id='profile'><img src={pic} alt="pic" className='profilepic'/></div>
            
         </section>
-        <button className='cv'>Download CV</button>
+      <a  className ='cv' href={pdf} download='Monika pdf'>Download cv</a>
+        {/* <button className='cv'>Download CV </button> */}
         <button className='cv'>Hire Me Now!</button>
    </>
   )

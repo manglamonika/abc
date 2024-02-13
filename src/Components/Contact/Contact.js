@@ -1,8 +1,30 @@
-import React from 'react'
+import React ,{useRef} from 'react';
 import './Contact.css';
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_ny97hkt', 'template_63vynrv', form.current, {
+        publicKey: '6zSZzB1ShathmpDj-',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert("email sent");
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+
+        },
+      );
+      }
   return (
     <div className='main'>
     <div className='contact'>
@@ -11,14 +33,14 @@ const Contact = () => {
         <h2>Contact Me</h2>
 
      </div>
-     <form className='form'>
+     <form className='form' ref={form} onSubmit={sendEmail}>
+       
+       <input className='text1' type="text" placeholder='your name' />
+      <input className='text2' type="text" placeholder='your Email'/>
         
-       <div className='text1' > <input type="text" placeholder='' /></div>
-       <div className='text2'> <input type="text" placeholder='your Email'/></div>
-       <div className='text3'> <input type="text" placeholder='your Address'/></div>
-       <div className='text4'> <input type="text" placeholder='phone Number'/></div>
-       <div className='text5'><textarea name='' id='write' rows={10} cols={30} placeholder='Your mess'></textarea></div>
-       <div className='button'><button  type="submit">Send Me</button></div>
+       <textarea name='' id='write' rows={10} cols={30} placeholder='Your mess'></textarea>
+       <button className='button' type="submit">Send Me</button>
+     
      </form>
       
     </div>
@@ -26,5 +48,5 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
 
