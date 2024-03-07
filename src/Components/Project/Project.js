@@ -1,15 +1,14 @@
 import React from 'react'
 import './Project.css'
-import Pics from '../../assests/img7.jpg';
-import Pic from '../../assests/img4.jpg';
-import Pici from '../../assests/img5.jpg';
-import Picture from '../../assests/img6.jpg';
+import Pics from '../../assests/project1.png';
+import Pic from '../../assests/project2.png';
+import Pici from '../../assests/project3.png';
+import Picture from '../../assests/Track-2.png';
 
 const Project = () => {
   return (
     <div className='main-tag'>
         <div className='headong'>
-      <span>What i will do for you</span>
       <h2>Latest Project</h2>
       </div>
 
@@ -23,46 +22,39 @@ const Project = () => {
 
     <div className='project'>
         <div className='project-type'>
-            <span className='photo ' ><img src={Pics} alt="Pics" className='projectpic1'/></span>
+            <img src={Pics} alt="Pics" className='projectpic1'/>
             <div>
-                <h3>Be-blogger App</h3>
-                <p>lorem nkcdnkvndsxkcnkdsnxcksndncsddddvvvvvvvv</p>
+                <h3>True-Beat</h3>
+                <p></p>
+                 <a href="#"></a>
+            </div>
+        </div>
+
+        {/* <div className='project-type'>
+            <img src={Pic} alt="Pics" className='projectpic1'/>
+            <div>
+                <h3>Be-Blogging App</h3>
+                <p></p>
+                 <a href="#"></a>
+            </div>
+        </div> */}
+
+        
+
+        <div className='project-type'>
+            <img src={Pici} alt="Pics" className='projectpic1'/>
+            <div>
+                <h3>Boook-Store Application</h3>
+                <p>l</p>
                  <a href="#"></a>
             </div>
         </div>
 
         <div className='project-type'>
-            <span className='photo '><img src={Pic} alt="Pics" className='projectpic1'/></span>
+           <img src={Picture} alt="Pics" className='projectpic1'/>
             <div>
-                <h3>Self-Car Driving</h3>
-                <p>lorem nkcdnkvndsxkcnkdsnxcksndncsddddvvvvvvvv</p>
-                 <a href="#"></a>
-            </div>
-        </div>
-
-        <div className='project-type'>
-            <span className='photo '><img src={Picture} alt="Pics" className='projectpic1'/></span>
-            <div>
-                <h3>BMRC</h3>
-                <p>lorem nkcdnkvndsxkcnkdsnxcksndncsddddvvvvvvvv</p>
-                 <a href="#"></a>
-            </div>
-        </div>
-
-        <div className='project-type'>
-            <span className='photo '><img src={Pici} alt="Pics" className='projectpic1'/></span>
-            <div>
-                <h3>True-beat App</h3>
-                <p>lorem nkcdnkvndsxkcnkdsnxcksndncsddddvvvvvvvv</p>
-                 <a href="#"></a>
-            </div>
-        </div>
-
-        <div className='project-type'>
-            <span className='photo '><img src={Pic} alt="Pics" className='projectpic1'/></span>
-            <div>
-                <h3>Book Store Application</h3>
-                <p>lorem nkcdnkvndsxkcnkdsnxcksndncsddddvvvvvvvv</p>
+                <h3>Self-Driving Car</h3>
+                <p></p>
                  <a href="#"></a>
             </div>
         </div>

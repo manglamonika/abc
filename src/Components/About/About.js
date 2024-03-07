@@ -4,113 +4,110 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="maintag">
-      <p className="tech">Technical and Professional</p>
-      <h1 className="tech">MY SKILLS</h1>
-      <section>
-        <span className="technical">Technical Skills</span>
-        <span className="technical">Professional Skills</span>
+
+<>
+    
 
 
-        <div className="skilltitle">
-          <div className="skills">
-            <div className="moni">
-              <span className="skill" >Html</span>
-              <span className="skill1" id="ski1">90%</span>
-            </div>
-          </div>
+    <div className="myskill">
+      <h1>My Skills</h1>
+    </div>
+    <div className="container">                                         
 
-          <div className="skills">
-            <div className="moni">
-            <span className="skill">Figma</span>
-            <span className="skill2" id="ski">70%</span>
-            </div>
-          </div>
+  
+      <div className="leftc">
+        <div className="leftHead">
+        <h1 className="technical">Technical Skills</h1>
+        </div>
         
-          <div className="skills">
-          <div className="moni">
-            <span className="skill" >Javascript</span>
-            <span className="skill3" id="skil">70%</span>
-            </div> 
-          </div>
+        <div className="leftskill">
 
-          <div className="skills">
-            <div className="moni">
-            <span className="skill">Css</span>
-            <span className="skill4" id="ski2">60%</span>
-            </div>
-          </div>
+        <div className="leftstyle">
+        <div className="leftskill1">
+              <span>Html</span>
+              <span>90%</span>
+        </div>
+        </div>
+        <div className="leftskill1" id="skill2">
+              <span>Css</span>
+              <span>80%</span>
+        </div>
 
-          <div className="skills">
-            <div className="moni">
-            <span className="skill">python</span>
-            <span className="skill4" id="ski2">60%</span>
-            </div>
-          </div>
+        <div className="leftskill1">
+              <span>Javascript</span>
+              <span>75%</span>
+        </div>
 
-          <div className="skills">
-            <div className="moni">
-            <span className="skill">java</span>
-            <span className="skill4" id="ski2">60%</span>
-            </div>
-          </div>
+        <div className="leftskill1">
+              <span>ReactJs</span>
+              <span>70%</span>
+        </div>
 
-          <div className="skills">
-            <div className="moni">
-            <span className="skill">nodejs</span>
-            <span className="skill4" id="ski2">60%</span>
-            </div>
-          </div>
 
+        
+        <div className="leftskill1">
+              <span>Python</span>
+              <span>80%</span>
+        </div>
+
+        
+        <div className="leftskill1">
+              <span>Nodejs</span>
+              <span>700%</span>
+        </div>
+
+        
+        <div className="leftskill1">
+              <span>MySql</span>
+              <span>80%</span>
+        </div>
+
+         
+        <div className="leftskill1">
+              <span>Figma</span>
+              <span>80%</span>
+        </div>
 
         </div>
-      </section>
-{/* professional skill */}
-                <div id="main">
-                    <div className="box" id="b1">
-                        <div className="circle" id="c1">
-                            <div class="points"></div>
-                            {/* <div class="points"></div>
-                            <div class="points"></div>
-                            <div class="points"></div> */}
-                        </div>
-                        <div className="text"id="t1">
-                            <span id="i1">90%</span>
-                            <span>Team work</span>
-                        </div>
-                        <div className="box"id="b2">
-                        <div className="circle" id="c2">
-                            <div class="points"></div>
-                            
-                        </div>
-                        </div>
-                        <div className="text" id="t2">
-                            <span id="i2">90%</span>
-                            <span>Team work</span>
-                        </div>
-                        <div className="box" id="b3">
-                        <div className="circle" id="c3">
-                            <div class="points"></div>
-                            
-                        </div>
-                        </div>
-                        <div className="text" id="t3">
-                            <span id="i3">90%</span>
-                            <span>Team work</span>
-                        </div>
-                        <div className="box" id="b4">
-                        <div className="circle" id="c4">
-                            <div class="points"></div>
-                            
-                        </div>
-                        </div>
-                        <div className="text" id="t4">
-                            <span id="i4">90%</span>
-                            <span>Team work</span>
-                        </div>
-                    </div>
-                    </div>
+        </div>
+        
+      {/* professional */}
+     <div className="rightcont">
+      <div className="rightskill">
+              <h1 className="technical">Professional Skills</h1>
+      </div>
+
+       <div className="rightc">
+        <div className="rightskill1">
+              <span>Team Work</span>
+              <span>80%</span>
+        </div>
+        
+         
+        <div className="rightskill1">
+              <span>Problem Solving Skills</span>
+              <span>80%</span>
+        </div>
+
+         
+        <div className="rightskill1">
+              <span>Communication</span>
+              <span>80%</span>
+        </div>
+
+        <div className="rightskill1">
+              <span>Active Listening</span>
+              <span>80%</span>
+        </div>
+        </div>
+        </div>
+      
     </div>
+
+           
+                        
+    
+    </>
   );
 };
 

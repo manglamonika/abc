@@ -4,10 +4,11 @@ import {Link} from 'react-scroll';
 
 const Navbar = () => {
   return (
- <>
-        <nav className="navbar">
+ <>     
+ <div className='MInNav'>
+        <div className="navbar">
             <span class="Portfolio">Portfolio</span>
-
+          </div>
             <div className="Menu">
                 <Link className='Menuitm1'> Home</Link>
                 <Link className='Menuitm1'>Project</Link>
@@ -15,7 +16,7 @@ const Navbar = () => {
                 <Link className='Menuitm1'>Contacts</Link>
             </div>
             
-        </nav>
+        </div>
         
     </>
   )

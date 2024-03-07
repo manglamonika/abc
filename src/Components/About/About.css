@@ -1,177 +1,76 @@
-
-.technical{
-    font-weight: 900;
-    font-size: 2rem;
-    position: relative;
-    right: 20rem;
-    margin:2rem;
-    margin-left:25rem;
-}
-.maintag{
-    position: relative;
-    top: 44rem;
-}
-.tech{
-   font-weight:600;
-   font-size: 1.5rem;
-   
-}
-
-.skills{
-    
-    background-color: white;
-    width: 32.5%;
-    margin: auto;
-    margin-left: -30rem;
-    margin-top: 2rem;
-    /* color: aqua; */
-    border-radius: 5rem;
-    margin-left: 2rem;
-    padding: 0.1rem;
-}
-#skil{
-    /* color: aqua; */
-    margin: auto;
-    margin-left: 9rem;
-    z-index: 1;
-    color: purple;
-}
-
-#ski{
-    margin: auto;
-    margin-left: 11rem;
-    z-index: 1;
-    color: purple;
-}
-#ski1{
-    margin: auto;
-    margin-left: 11.5rem;
-    z-index: 1;
-    color: purple;
-}
-#ski2{
-    margin: auto;
-    margin-left: 11.5rem;
-    z-index: 1;
-    color: purple;
-}
-.skill{
-   position: relative;
-   bottom: 0.1rem;
-
-}
-
-/* .skill{ */
-    /* color: red;
-    margin: 8rem;
-    margin-left: 13rem;
-     z-index: 1;
-     height: 2rem;
-    color: purple;
-} */
-
-.moni{
-    height: 20px;
-    width: 80%;
-    background: linear-gradient(to right, #857cd6, #695ee5, #24243e);
-
-    border-radius: 3px;
-    animation: fillBars 2.5s 1;
-    /* background-color: aqua;
-    border-radius: 20px;
-    width: 30rem;
-    animation: fill 3s 1; */
-}
-
-@keyframes fill{
-    from{
-        width: 0;
-    }
-    to{
-        width: 30rem;
-    }
-}
-.moni{
-    background-color: aqua;
-    border-radius: 20px;
-    width: 30rem;
-    animation: fill1 3s 1;
-}
-@keyframes fill1{
-    from{
-        width: 0;
-    }
-    to{
-        width: 50%;
-    }
-}
-.moni{
-    background-color: aqua;
-    border-radius: 20px;
-    width: 30rem;
-    animation: fill2 3s 1;
-}
-@keyframes fill2{
-    from{
-        width: 0;
-    }
-    to{
-        width: 30rem;
-    }
-}
-@keyframes fill3{
-    from{
-        width: 0;
-    }
-    to{
-        width: 30rem;
-    }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 
-   
-    /* professional */
-
-     
-   .text{
+.container,
+.leftc,
+.rightskill,
+.rightc,
+.rightcont{
     display: flex;
-    
-
-   } 
-     .circle{
-        width:150px;
-        height:150px;
-        border-radius: 5rem;
-        background: linear-gradient(to right, #9796f0, #fbc7d4);
-
-       border:9px solid white;
-
-    
-    }
-    #main{
-        margin-left:53rem;
-     margin-bottom: 90rem; 
-        position: relative;
-        bottom: 22rem;
-
-    display: grid; 
-    
-
-    }
-
- #b4,#t4{
+    width: 100%;
    
+}
+.leftc,
+.rightskill,
+.rightcont,
+.rightc,.leftskill
+
+{
+    flex-direction: column;
+}
+
+
+.leftc,.rightcont{
+margin-top:8rem;
+
+}
+
+
+.leftskill1
+{
+    background-color: blueviolet;
+  
+   border-radius: 1px;
+  margin-left:2rem;
+  
+
+ 
+  
+
+   
+  
+}
+
+
+.rightskill1{
+    background-color: blueviolet;
+    margin:1.5rem;
+    width:20%;
+    
+  
+}
+.leftskill1,.leftstyle{
+background-color: blue;
+    border-radius: 10px;
+    margin:1rem;
+    width:50%;
+ 
     position: relative;
-    left:15rem;
-    bottom: 23rem;
- }
- #b3,#t3{
-    position: relative;
-    left:15rem;
-    bottom: 23rem;
- }
- #i1,#i2,#i3,#i4{
-    position: relative;
-    bottom:6rem;
-    left:4rem;
- }
+    animation: my 3s infinite;
+}
+ @keyframes my{
+    from{
+        width:0;
+    }
+    to{
+        width:30rem;
+    }
+} 
+
+
+
+

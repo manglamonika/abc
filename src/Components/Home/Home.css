@@ -1,95 +1,121 @@
-.home-content{
-    /* color: black; */
-    position: relative;
-    top:5rem;
-    left:7rem;
-    
-}
-.profilepic{
-    
-    position: relative;
-    width:20rem;
-    height:20rem;
-    left:34rem;
-    top:5rem;
-    border-radius: 10rem 10rem 10rem 10rem;
-    box-shadow: 10px 10px 15px 12px blue;
-
-    /* margin-left: 53rem; */ 
-}
-
-.home{
-    display: flex;
-  
-}
-/* .cv{ */
-   /* position: relative;
-   top: 3rem;
-   right:30rem;
-   margin:15px;
-   height:2.5rem;
-   font-weight:bold; 
-   color: black;  */
-   
-   .cv {
-
-
-    position: relative;
-    top: 7rem;
-    right:27rem;
-    margin:1rem;
-    --glow-color: rgb(217, 176, 255);
-    --glow-spread-color: rgba(51, 11, 214, 0.781);
-    --enhanced-glow-color: rgb(231, 206, 255);
-    --btn-color: rgb(53, 9, 213);
-    border: .25em solid var(--glow-color);
-    padding: 1em 3em;
-    color: var(--glow-color);
-    font-size: 15px;
-    font-weight: bold;
-    background-color: var(--btn-color);
-    border-radius: 1em;
-    outline: none;
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 1em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-    text-shadow: 0 0 .5em var(--glow-color);
-    position: relative;
-    transition: all 0.3s;
-   }
-   
-   cv::after {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    top: 120%;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--glow-spread-color);
-    filter: blur(2em);
-    opacity: .7;
-    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-   }
-   
-   cv:hover {
-    color: var(--btn-color);
-    background-color: var(--glow-color);
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 2em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-   }
-   
-   .cv:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-   }
-
 *{
-    color: antiquewhite;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     color:white; 
+    /* box-shadow: 10px 10px 5px 15px purple;   */
+
+
 }
-.cv:hover{
+.home,
+.home-content,
+.profile{
+    display: flex;
+    width: 100%; 
+    padding-top: 6rem;
+    gap: 1rem;
+}
+
+.home-content, .profile{
+    flex-direction: column;
+    gap:2rem;
+}
+/* .profile{
+   width: 50%;
+   border-color: whitesmoke;
+   border: 100%;
+  
+   padding-top: 1rem;
+}  */
+.iconhead{
+    display: flex;
+ 
+}
+
+.icon{
+    width:5%;
+   margin-left:4rem;
+    background-color: blue;
+   position: relative;
+   left: 7rem;
+   flex-direction: column;
+   border-radius: 5px solid white;
+}
+.icon:hover{
+    
+    /* rotate:90deg; */
+    border: 2px solid rgb(133, 124, 225);
+ 
+    scale:1.2;
+
+
+}
+.profile{
    
-   cursor:pointer;
+   
+ margin-right: 3rem;
+
 }
+
+.profilepic{
+    width: 50%;
+    border: 5px solid white;
+  
+    background-image: linear-gradient(to left ,rgb(34, 34, 192) , rgb(76, 80, 84),rgb(82, 82, 239));
+
+}
+#cv1{
+    width: 10%;
+    margin-left: 45%;
+    border-radius: 20px;
+    background-color:blue ;
+}
+
+
+
+
+
+
+/* *{
+    margin:0px;
+    padding:0%;
+    box-sizing: border-box;
+    color:white
+}
+
+
+.profilepic{
+  
+  
+    width: 25%;
+    margin-top: 5%;
+  box-shadow: 10px 10px 5px 12px;
+  border-radius: 50%;
+    
+   
+}
+.home-content{
+    position: relative;
+    z-index: 1;
+    top: 15rem;
+    float: left;
+    margin-left: 3rem;
+   
+
+
+   
+}
+.cv{
+    z-index: 1;
+    margin-top: 1rem;
+   position: relative;
+   right:35%;
+   margin-right: 2%;
+   font-size: larger;
+
+
+
+}
+#cv1{
+    color:black
+} */

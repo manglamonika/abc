@@ -1,35 +1,32 @@
-.navbar{
-    background-color:rgb(25, 9, 203);
-height:3rem;
-width:100%;
-display :flex;
-align-items: center;
-/* justify-content: space-between; */
-padding: 10px 10%;
 
 
-
+*{
+    margin:0px;
+    padding:0%;
+    box-sizing: border-box;
 }
 
-.Menuitm1{
-    margin:-80px;
-    margin-left: 14rem;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
 
+.MInNav{
+    width:100%;
+    background-color: blue;
+   display: flex;
+   padding: 1em;
 
-
+    
 }
-.Menuitm1:hover{
-  color:black;
-  text-decoration: underline;
-}
+
 .Portfolio{
-  font-weight: bold;
-  font-size: 2rem;
-  margin-left: -7rem;
-}
-.Portfolio:hover{
-  box-shadow: 10px 10px 15px 12px black;
 
+
+}
+.Menu{
+
+}
+.Menuitm1{
+margin-left: 14rem;
+padding: 2rem;
+
+    
+   
 }
