@@ -16,7 +16,7 @@
     width:100%;
 
     margin-top: 8rem; 
-     background-image: linear-gradient(to left ,rgb(12, 12, 13) , rgb(76, 80, 84),rgb(28, 28, 29));
+     background-image: linear-gradient(to left ,rgb(12, 12, 13) , rgb(11, 11, 11),rgb(28, 28, 29));
 
 }
 
@@ -36,7 +36,11 @@
     font-weight: bold;
     padding:1rem;
     border-radius: 10px;
+    animation: buttn 2s ease;
+   
 }
+
+
 
 .text1,.text2,#write{
     color:black;

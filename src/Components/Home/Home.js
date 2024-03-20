@@ -21,7 +21,7 @@ const Home = () => {
                 </p>
                 <a  className ='cv' href={pdf} download='Monika pdf'>Download cv</a>
        
-                <button className='cv' id='cv1'>Hire Me Now!</button>
+                {/* <button className='cv' id='cv1'>Hire Me Now!</button> */}
                
                 
             </div>

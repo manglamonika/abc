@@ -20,11 +20,11 @@ const Navbar = () => {
           </div>
           <label  class="menu-btn"><fontAwesomeIcon icon="fa-regular fa-bars" /></label>
             <ul className="Menu">
-            <li><a to ='#Intro' smooth className='active' >Intro</a></li>
-            <li> <a to ='#Home' smooth className='active'>Home</a></li>
-            <li> <a to ='#About' smooth className='active'>About</a></li> 
-            <li> <a to ='#Project' smooth className='active'>Project</a></li>
-            <li><a to ='#Contact' smooth className='active'>Contact</a></li>
+            <li><Link to ='#Intro' smooth className='active' >Intro</Link></li>
+            <li> <Link to ='#Home' smooth className='active'>Home</Link></li>
+            <li> <Link to ='#About' smooth className='active'>About</Link></li> 
+            <li> <Link to ='#Project' smooth className='active'>Project</Link></li>
+            <li><Link to ='#Contact' smooth className='active'>Contact</Link></li>
                 {/* <Link className='Menuitm1'> Home</Link>
                 <Link className='Menuitm1'>Project</Link>
                 <Link className='Menuitm1'>Skills</Link>

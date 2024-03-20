@@ -20,8 +20,39 @@ const About = () => {
               <h1 className="technical">Technical Skills</h1>
            </div>
 
+           <li ><h3>HTML</h3>
+           
+               <span className="bar"><span className="html"></span></span>
+           </li>
+
+           <li><h3>CSS</h3>
+               <span className="bar"><span className="css"></span></span>
+           </li>
+
+           <li><h3>Javascript</h3>
+               <span className="bar"><span className="js"></span></span>
+           </li>
+
+
+           <li><h3>Nodejs</h3>
+               <span className="bar"><span className="node"></span></span>
+           </li>
+
+
+           <li><h3>Mysql</h3>
+               <span className="bar"><span className="mysql "></span></span>
+           </li>
+
+
+           <li><h3>Figma</h3>
+               <span className="bar"><span className="html"></span></span>
+           </li>
+
+
+
+
       
-      <div className='skill'>
+      {/* <div className='skill'>
 
                   <div className='skill-name'>
                         HTML
@@ -100,7 +131,7 @@ const About = () => {
                         </div>
                     </div>
 
-      </div>
+      </div> */}
 
 
       

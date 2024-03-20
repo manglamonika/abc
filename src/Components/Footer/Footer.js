@@ -7,7 +7,7 @@ import fontpic3 from '../../assests/github.svg';
 
 const Footer = () => {
   return (
-    <div>
+    <div className='last'>
         <div >
             <h1 className='foo'>For More Info Please Check out these links</h1>
             </div>

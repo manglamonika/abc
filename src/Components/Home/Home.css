@@ -9,9 +9,9 @@
 
 }
 .home{
-  background-image:url('../../assests/cp2.jpg') ;
- 
- clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  /* background-image:url('../../assests/cp2.jpg') ; */
+  background-image: linear-gradient(to right, #33001b, #ff0084);
+   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
 

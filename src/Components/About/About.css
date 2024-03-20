@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 
@@ -16,6 +17,7 @@
     
    
 }
+
 .mainn{
     /* background-image: linear-gradient(to right, #060606 40%, black 100%);
      box-shadow: 50px 0px 10px 50px inset; */
@@ -23,7 +25,7 @@
      
 }
 .rightcont,.technical{
-    color:#060606
+    color:#fff
 }
 
 
@@ -37,160 +39,70 @@
 {
     flex-direction: column;
 }
-
-.skill-name{
-    font-size: 18px;
-    font-weight: 700;
-    color: aqua;
-    text-transform: uppercase;
-    margin: 20px 0;
-    
-}
-
-.skill-bar{
-    height: 14px;
-    background:whitesmoke;
-    /* width: 100%; */
-    border-radius: 10px;
-    margin-left:25rem;
-    margin-right:30rem;
-    
-
-}
-
-.skill-per{
-    height: 14px;
-    width: 80%;
-    /* background: aqua; */
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
+.mainn{
+    padding: 20px;
+    /* margin: 0px auto; */
    
-    position: relative;
-    animation: fillBars 2.5s 1;
+    box-shadow:  0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
 }
 
-.skill-bar:hover{
-    animation: fillBars 5s;    
+.mainn li{
+    margin:15px 0;
+    padding:10px;
 }
 
-.skill-per p{
-    margin-left: 35rem;
-    font-size: 1.1rem;
-    position: relative;
-    top: -0.4rem;
-    left: 2rem;
-    z-index: 1;
-    color: #060606;
+.bar{
+    background: grey;
+     display: block;
+     height:20px;
+     margin: -1.5rem;
+    margin-left: 22rem;
+    margin-right: 22rem;
+     border:1px solid rgba(0,0,0,0.3);
+     border-radius:10px;
+     overflow:hidden;
+     box-shadow:  0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0,0,0,0.24);
+      transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover{
+    box-shadow:  0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+
 }
 
-.skill-per1 p{
-    margin-left: 35rem;
-    font-size: 1.1rem;
-    position: relative;
-    top: -0.4rem;
-    left: 2rem;
-    z-index: 1;
-    color: #060606;
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
 }
-.skill-per2 p{
-    margin-left: 35rem;
-    font-size: 1.1rem;
-    position: relative;
-    top: -0.4rem;
-    left: 2rem;
-    z-index: 1;
-    color: #060606;
+
+.html{
+    width:90%;
+    animation: html 3s;
+}
+
+.css{
+    width:80%;
+    animation: css 3s;
+}
+.js{
+    width:70%;
+    animation: js 3s;
+}
+.node{
+    width:70%;
+    animation: node 3s;
+}
+.mysql{
+    width:80%;
+    animation: mysql 3s;
+}
+.Figma{
+    width:80%;
+    animation: figma 3s;
 }
 
 
-.skill-per3 p{
-    margin-left: 35rem;
-    font-size: 1.1rem;
-    position: relative;
-    top: -0.5rem;
-    position: relative;
-    top: -0.4rem;
-    left: 2rem;
-    z-index: 1;
-    color: #060606;
-}
-.skill-per4 p{
-    margin-left: 35rem;
-    font-size: 1.1rem;
-    position: relative;
-    top: -0.4rem;
-    left: 2rem;
-    z-index: 1;
-    color: #060606;
-}
-.skill-per5 p{
-    margin-left: 35rem;
-    font-size: 1.1rem;
-    position: relative;
-    top: -0.4rem;
-    left: 2rem;
-    z-index: 1;
-    color: #060606;
-    
-}
-
-.skill-per6 p{
-    margin-left: 35rem;
-    font-size: 1.5rem;
-    position: relative;
-    top: -0.5rem;
-    left: 0.5rem;
-    z-index: 1;
-    color: #060606;
-}
-
-.skill-per1{
-    height: 14px;
-    width: 90%;
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
-    animation: fillBars1 2.5s 1;
-    
-}
-
-.skill-per2{
-    height: 14px;
-    width: 70%;
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
-    animation: fillBars2 2.5s 1;
-}
-
-.skill-per3{
-    height: 14px;
-    width: 85%;
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
-    animation: fillBars3 2.5s 1;
-}
-.skill-per4{
-    height: 14px;
-    width: 80%;
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
-    animation: fillBars4 2.5s 1;
-}
-.skill-per5{
-    height: 14px;
-    width: 80%;
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
-    animation: fillBars5 2.5s 1;
-}
-.skill-per6{
-    height: 14px;
-    width: 75%;
-    background: linear-gradient(-45deg, #2b26ce 0%, #00dbde 100% );
-    border-radius: 3px;
-    animation: fillBars6 2.5s 1;
-}
-
-@keyframes fillBars{
+@keyframes html{
     from{
         width: 0;
     }
@@ -198,7 +110,7 @@
         width: 80%;
     }
 }
-@keyframes fillBars1{
+@keyframes css{
     from{
         width: 0;
     }
@@ -206,7 +118,7 @@
         width: 90%;
     }
 }
-@keyframes fillBars2{
+@keyframes nodde{
     from{
         width: 0;
     }
@@ -214,7 +126,7 @@
         width: 70%;
     }
 }
-@keyframes fillBars3{
+@keyframes js{
     from{
         width: 0;
     }
@@ -222,7 +134,7 @@
         width: 85%;
     }
 }
-@keyframes fillBars4{
+@keyframes mysql{
     from{
         width: 0;
     }
@@ -230,7 +142,7 @@
         width: 80%;
     }
 }
-@keyframes fillBars5{
+@keyframes Figma{
     from{
         width: 0;
     }
@@ -310,11 +222,15 @@ margin-left: 27rem;
 .rot{
     width: 15rem;
     height: 15rem;
-    background-color: black;
+    background-color: #fff;
     position: absolute;
     border-right: 0.5rem solid grey ;
     border-radius: 50%;
     animation: rot 2s linear infinite;
+}
+.rot:hover{
+    background: linear-gradient(to right, #33001b, #dd2383);
+
 }
 @keyframes rot {
     0%{
@@ -329,27 +245,36 @@ margin-left: 27rem;
     position: relative;
     top: 6rem;
     transform: translate(-50%,-50%);
-    color:white;
+    color:black;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .team2{
     position: relative;
     top: 6rem;
     transform: translate(-50%,-50%);
+    color:black;
+    font-weight: 700;
+    font-size: 1.5rem;
 
 }
 .team3{
    
     position: relative;
     top: 6rem;
-   
+    color:black;
     transform: translate(-50%,-50%);
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .team4{
 
     position: relative;
     top: 6rem;
-    
+    color:black;
     transform: translate(-50%,-50%);
+    font-weight: 700;
+    font-size: 1.5rem;
 
 }
 
@@ -365,7 +290,7 @@ margin-left: 27rem;
 } */
 
 
-  .leftstyle{
+  /* .leftstyle{
 background-color: blue;
     border-radius: 10px;
     margin:1rem;
@@ -381,7 +306,7 @@ background-color: blue;
     to{
         width:20rem;
     }
-}   
+}    */
 
 
 
