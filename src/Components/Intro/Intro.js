@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import './Intro.css';
-import p from '../../assests/profile1.png';
-import p1 from '../../assests/cp1.jpg';
+// import p from '../../assests/profile1.png';
+// import p1 from '../../assests/cp1.jpg';
 
 const Intro = () => {
 

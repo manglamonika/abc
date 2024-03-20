@@ -8,7 +8,7 @@ import pdf from '../../assests/Monika_resume.pdf';
 import { Link } from 'react-scroll';
 
 const Home = () => {
-  <div className='bg' style={{backgroundImage:`url($pic)`}}></div>
+  // <div className='bg' style={{backgroundImage:`url($pic)`}}></div>
   return (
    <>
       <div className='home' id='Home'>
@@ -26,7 +26,7 @@ const Home = () => {
                 
             </div>
       
-        <div class='profile'>
+        <div className='profile'>
           <img  src={pic} alt="pic" className='profilepic'/>
           </div>
 </div>

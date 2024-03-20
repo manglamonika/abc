@@ -41,6 +41,7 @@ background-color: grey;
 padding: 8px 10px;
 border-radius: 5px;
 transition: all 0.3s ease;
+
 }
 
 nav ul li a:hover,
@@ -49,6 +50,7 @@ nav ul li a:active
 {
 color:grey;
 background:#ff0084 ;
+
 }
 
 
