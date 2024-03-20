@@ -1,6 +1,6 @@
 import React from 'react';
-import {fontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
+// import {fontAwesomeIcon} from "@fortawesome/react-fontawesome";
+// import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import './Navbar.css'
 
 // import {Link} from 'react-scroll';
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="navbar">
             Portfolio
           </div>
-          <label  class="menu-btn"><fontAwesomeIcon icon="fa-regular fa-bars" /></label>
+          {/* <label  class="menu-btn"><fontAwesomeIcon icon="fa-regular fa-bars" /></label> */}
             <ul className="Menu">
             <li><Link to ='#Intro' smooth className='active' >Intro</Link></li>
             <li> <Link to ='#Home' smooth className='active'>Home</Link></li>
