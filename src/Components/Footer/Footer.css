@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .foo{
+    color:black;
+
+   
+}
+
+.foo:hover{
+    background: linear-gradient(-45deg, #2c2c2e 0%, #271589 100% );
+    border:2px solid black;
+    
+}
+a:hover{
+   translate: 3rem;
+ 
+ 
+   
+}

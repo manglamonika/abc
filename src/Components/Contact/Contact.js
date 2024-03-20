@@ -26,7 +26,7 @@ const Contact = () => {
       );
       }
   return (
-    <div className='main'>
+    <div className='main' id='Contact'>
     <div className='contact'>
      <div className='main-text'>
         <span>Ask Me a question</span>

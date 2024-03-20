@@ -2,14 +2,25 @@
     margin:0px;
     padding:0%;
     box-sizing: border-box;
+   
 }
-
+.int1,int{
+    font-size: 2rem;
+    margin-top: -8%;
+}
 
 
 .Intro,.heading{
     padding-top: 4rem;
     display: flex;
     width: 100%;
+}
+.Intro,.fix3{
+    background-image:url('../../assests/cp1.jpg') ;
+   
+
+    box-shadow: 20px 20px 10px black inset;
+    background: linear-gradient(-45deg, black 0%, #030815 100% );
 }
 .heading{
     flex-direction: column;
@@ -18,19 +29,69 @@
     width: 60%;
     border-radius: 1rem ;
     /* box-shadow: 5px 10px 15px 15px blue; */
-    background-image: linear-gradient(to left ,rgb(34, 34, 192) , rgb(76, 80, 84),rgb(82, 82, 239));
+    background-image: linear-gradient(to left ,rgb(172, 93, 212)) , rgb(76, 80, 84),rgb(82, 82, 239));
     
 
 }
-.button-content{
-  
-   
-    border-radius: 5px;
-    background-color:blue ;
-    /* padding: 1rem 1rem; 
-    margin-top: 12rem; */
-    
-}
+
 .para{
     align-items:center;
 }
+
+.button {
+    position: relative;
+    margin-left: 45rem;
+    width: 120px;
+    height: 40px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+    z-index: -1;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .button::after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(50px);
+  }
+  
+  .button:hover::after {
+    filter: blur(30px);
+  }
+  
+  .button:hover::before {
+    transform: rotate(-180deg);
+  }
+  
+  .button:active::before {
+    scale: 0.7;
+  }
+  
+  

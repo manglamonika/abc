@@ -14,10 +14,12 @@
 }
 .main{
     width:100%;
-    margin-top: 8rem;
-    background-image: linear-gradient(to left ,rgb(34, 34, 192) , rgb(76, 80, 84),rgb(82, 82, 239));
+
+    margin-top: 8rem; 
+     background-image: linear-gradient(to left ,rgb(12, 12, 13) , rgb(76, 80, 84),rgb(28, 28, 29));
 
 }
+
 
 .main-text{
     font-family: sans-serif;
@@ -27,8 +29,6 @@
 }
 .form1{
     margin:0.5rem;
-   
-   
     
 }
 .button{
@@ -37,6 +37,7 @@
     padding:1rem;
     border-radius: 10px;
 }
+
 .text1,.text2,#write{
     color:black;
  padding:1rem;

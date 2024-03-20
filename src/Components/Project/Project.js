@@ -9,10 +9,10 @@ const Project = () => {
   return (
     <div className='main-tag'>
         <div className='headong'>
-      <h2>Latest Project</h2>
+      <h1>Latest Project</h1>
       </div>
 
-    <div className='Head'>
+    <div className='Head' id='Project'>
       <div className='Head-tag'>
         <button className='btn'>All</button >
         <button className='btn'>Product</button >
@@ -30,14 +30,14 @@ const Project = () => {
             </div>
         </div>
 
-        {/* <div className='project-type'>
+        <div className='project-type'>
             <img src={Pic} alt="Pics" className='projectpic1'/>
             <div>
                 <h3>Be-Blogging App</h3>
                 <p></p>
                  <a href="#"></a>
             </div>
-        </div> */}
+        </div>
 
         
 
@@ -50,6 +50,24 @@ const Project = () => {
             </div>
         </div>
 
+      
+        <div className='project-type'>
+            <img src={Pici} alt="Pics" className='projectpic1'/>
+            <div>
+                <h3>Boook-Store Application</h3>
+                <p>l</p>
+                 <a href="#"></a>
+            </div>
+        </div>
+
+        <div className='project-type'>
+            <img src={Pici} alt="Pics" className='projectpic1'/>
+            <div>
+                <h3>Boook-Store Application</h3>
+                <p>l</p>
+                 <a href="#"></a>
+            </div>
+        </div>
         <div className='project-type'>
            <img src={Picture} alt="Pics" className='projectpic1'/>
             <div>
@@ -58,7 +76,7 @@ const Project = () => {
                  <a href="#"></a>
             </div>
         </div>
-
+        
 
     </div>
 
