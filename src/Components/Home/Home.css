@@ -9,24 +9,29 @@
 
 }
 .home{
-  /* background-image:url('../../assests/cp2.jpg') ; */
-  background-image: linear-gradient(to right, #33001b, #ff0084);
+  /* background-repeat: no-repeat; */
+
+  /* border-image:fill 0 linear-gradient(#0001,#000) ; */
+  /* background-image: black; */
    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
+.home-content{
+    background-image:url('../../assests/cp3.jpg') ;
+    width: 100%;
 
-
+}
 .home,
 .home-content,
 .profile{
     display: flex;
     width: 100%; 
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
   
     gap: 1rem;
 }
 .home-content  {
-    margin-bottom: 13rem;
+    /* margin-bottom: 5rem; */
     color:white;
 }
 .name:hover{

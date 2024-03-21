@@ -25,6 +25,9 @@
     font-family: sans-serif;
     font-size: larger;
     margin:2rem;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
+
     
 }
 .form1{

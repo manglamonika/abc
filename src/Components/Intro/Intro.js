@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './Intro.css';
-// import p from '../../assests/profile1.png';
+import p from '../../assests/pp.png';
 // import p1 from '../../assests/cp1.jpg';
 
 const Intro = () => {
@@ -15,9 +15,9 @@ const Intro = () => {
   return (
     
         <div className='Intro' id='Intro'>
-           {/* <div id='fix1'>
+           <div id='fix1'>
                 <img  id="fix"src={p}></img>
-            </div> */}
+            </div>
             
            
                 <div className='heading'>

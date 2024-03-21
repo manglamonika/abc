@@ -7,6 +7,8 @@
 .int1,int{
     font-size: 2rem;
     margin-top: -8%;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+
 }
 
 
@@ -16,20 +18,23 @@
     width: 100%;
 }
 .Intro,.fix3{
+    margin-top: 1rem;
     /* background-image:url('../../assests/cp1.jpg') ; */
    
 
     /* box-shadow: 20px 20px 10px black inset; */
-    /* background: linear-gradient(-45deg, black 0%, #030815 100% ); */
+    background: linear-gradient(-45deg, black 0%, #030815 100% );
 }
 .heading{
     flex-direction: column;
+
 }
 #fix{
-    width: 60%;
-    border-radius: 1rem ;
-    /* box-shadow: 5px 10px 15px 15px blue; */
-    background-image: linear-gradient(to left ,rgb(172, 93, 212)) , rgb(76, 80, 84),rgb(82, 82, 239);
+    width: 80%;
+    border-radius: 5rem ;
+    position: relative;
+    box-shadow: 5px 10px 15px 15px rgb(211, 14, 182);
+    /* background-image: linear-gradient(to left ,rgb(172, 93, 212)) , rgb(76, 80, 84),rgb(82, 82, 239); */
     
 
 }
