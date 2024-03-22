@@ -26,9 +26,9 @@
 .profile{
     display: flex;
     width: 100%; 
-    /* padding-top: 5rem; */
+    padding-top: 5rem;
   
-    gap: 1rem;
+    
 }
 .home-content  {
     /* margin-bottom: 5rem; */

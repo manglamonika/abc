@@ -10,6 +10,9 @@
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 
 }
+.int{
+    margin-top: 2rem;
+}
 
 
 .Intro,.heading{
@@ -37,10 +40,16 @@
     /* background-image: linear-gradient(to left ,rgb(172, 93, 212)) , rgb(76, 80, 84),rgb(82, 82, 239); */
     
 
-}
 
+}
+#fix:hover{
+    width: 90%;
+    transition: transform 0.5s;
+  transform: rotate(360deg);
+}
 .para{
     align-items:center;
+    margin-top: 5rem;
 }
 
 button {

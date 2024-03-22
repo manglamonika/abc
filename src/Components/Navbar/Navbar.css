@@ -21,6 +21,12 @@ nav .navbar{
     color:white;
     font-weight: 600;
 }
+.navbar:hover{
+    transition: transform 0.5s;
+    transform: scale(1.5);
+    color: #e24596;
+    font-style: italic;
+}
 
 nav ul{
     display:flex;
@@ -49,7 +55,7 @@ nav ul li a:active
 
 {
 color:grey;
-background:#ff0084 ;
+background:#bc3d7e ;
 
 }
 
